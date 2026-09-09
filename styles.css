@@ -1,0 +1,26 @@
+ @import url("https://use.typekit.net/tgv0ftz.css");
+
+body {
+background: #FFA3FF;
+background: linear-gradient(180deg,rgb(195, 163, 255) 0%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 100%);
+}
+
+h1{
+        font-family: 'Courier New', monospace;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 0.8;
+        color: rgb(162, 255, 0);
+        letter-spacing: -0.05em;
+    }
+
+    a img {
+        height: 200px;
+        margin-top: 10vh;
+        margin-left: 5vw;
+    }
+
+    a img:hover {
+        filter: drop-shadow(0 0 10px rgb(162, 255, 0));
+    }

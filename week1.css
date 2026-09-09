@@ -1,0 +1,27 @@
+ @import url("https://use.typekit.net/tgv0ftz.css");
+
+body {
+    background-color: blue;
+}
+
+h1, a{
+        font-family: 'Courier New', monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 0.8;
+        color: white;
+        letter-spacing: -0.05em;
+    }
+
+a {
+    text-decoration: none;
+}
+
+
+iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
