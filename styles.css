@@ -1,8 +1,20 @@
  @import url("https://use.typekit.net/tgv0ftz.css");
 
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100vh;
+}
+
 body {
 background: #FFA3FF;
 background: linear-gradient(180deg,rgb(195, 163, 255) 0%, rgba(255, 255, 255, 1) 71%, rgba(255, 255, 255, 1) 100%);
+background-repeat: no-repeat;
 }
 
 h1{
@@ -15,12 +27,33 @@ h1{
         letter-spacing: -0.05em;
     }
 
-    a img {
+    h2 {
+    font-family: "sloop-script-pro", sans-serif;
+    font-size: 150pt;
+    font-weight: 400;
+    font-style: normal;
+    color: yellow;
+    text-shadow: 0px 0px 5px rgb(26, 255, 0);
+    text-align: center;
+    }
+
+     img:hover {
+        filter: drop-shadow(0 0 10px rgb(162, 255, 0));
+    }
+
+
+    .week1 img {
         height: 200px;
         margin-top: 10vh;
         margin-left: 5vw;
+        position: absolute;
     }
 
-    a img:hover {
-        filter: drop-shadow(0 0 10px rgb(162, 255, 0));
-    }
+   
+    .week2 img {
+        height: 200px;
+        margin-top: 3vh;
+        margin-left: 25vw;
+        position: absolute;
+    } 
+    
