@@ -57,3 +57,9 @@ h1{
         position: absolute;
     } 
     
+.week3 img{
+    height: 200px;
+    margin-top: 5vh;
+    margin-left: 50vw;
+    position: absolute;
+}
