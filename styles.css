@@ -63,3 +63,24 @@ h1{
     margin-left: 50vw;
     position: absolute;
 }
+
+.week4 img {
+    height: 200px;
+    margin-top: 1vh;
+    margin-left: 80vw;
+    position: absolute;
+}
+
+.week5 img {
+    height: 200px;
+    margin-top: 30vh;
+    margin-left: 70vw;
+    position: absolute;
+}
+
+.week6 img {
+    height: 200px;
+    margin-top: 35vh;
+    margin-left: 45vw;
+    position: absolute;
+}

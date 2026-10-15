@@ -1,7 +1,7 @@
 p5.disableFriendlyErrors = true;
 let bDoExportSvg = false;
 
-const SPACING = 70;
+const SPACING = 100;
 let pts = [];
 let seed = 1;
 
